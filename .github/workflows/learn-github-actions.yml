@@ -11,3 +11,7 @@ jobs:
           node-version: '24'
       - run: npm install -g bats
       - run: bats -v
+  echo-test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'test'
