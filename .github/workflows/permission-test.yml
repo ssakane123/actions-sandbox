@@ -1,6 +1,5 @@
 # yaml-language-server: $schema=https://www.schemastore.org/github-workflow.json
-name: learn-github-actions
-run-name: ${{ github.actor }} is learning GitHub Actions
+name: Permission Test
 on: [push]
 jobs:
   check-bats-version:
