@@ -1,0 +1,11 @@
+# yaml-language-server: $schema=https://www.schemastore.org/github-workflow.json
+name: learn-github-actions
+run-name: ${{ github.actor }} is learning GitHub Actions
+on: [push]
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: none
+    steps:
+      - uses: actions/checkout@v6
