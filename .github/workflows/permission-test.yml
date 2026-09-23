@@ -2,7 +2,7 @@
 name: Permission Test
 on: [push]
 jobs:
-  check-bats-version:
+  checkout-without-contents-permission:
     runs-on: ubuntu-latest
     permissions:
       contents: none
